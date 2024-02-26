@@ -34,8 +34,16 @@ public class Exercises1 {
 
      */
     public char[][] generateTriangle(int rows) {
-        // TODO
-        return null;
+        char[][] starTable = new char[rows][];
+
+        for (int i = 0; i < rows; i++) {
+            starTable[i] = new char[i + 1];
+            for (int j = 0; j < i + 1; j++) {
+                starTable[i][j] = '*';
+            }
+        }
+
+        return starTable;
     }
 
 
