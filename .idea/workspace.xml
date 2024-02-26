@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b2b91b4-8370-401e-94eb-c33cd400dd39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exercises1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercises1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +16,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="Test1.factorial0" />
+    </enabled-run-configurations>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2cZmzEMnDEmdCpMWmJWzm7PZ3zN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,6 +39,9 @@
   "keyToString": {
     "Application.Exercises1.executor": "Run",
     "JUnit.Test1.executor": "Run",
+    "JUnit.Test1.factorial0.executor": "Coverage",
+    "JUnit.Test1.factorial1.executor": "Run",
+    "JUnit.Test1.factorial2.executor": "Run",
     "JUnit.Test2.executor": "Run",
     "JUnit.Test3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -39,22 +49,42 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Mahan/Documents/Java/AP-1402/First-Assignment-Warm-Up"
+    "last_opened_file_path": "E:/Ali/University/Shahid Beheshti/Semester-2/AdvancedProgramming/2_TA/Assignment/01/SBU-CS-Semester2-AP-First-Assignment-Warm-Up",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Test3">
-    <configuration name="Exercises1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercises1" />
+  <component name="RunManager" selected="JUnit.Test2">
+    <configuration name="Test1.factorial0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First-Assignment-Warm-Up" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="factorial0" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test1.factorial1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="First-Assignment-Warm-Up" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Test1" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="factorial1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.factorial2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="First-Assignment-Warm-Up" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <option name="METHOD_NAME" value="factorial2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -79,12 +109,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test3" />
         <item itemvalue="JUnit.Test2" />
-        <item itemvalue="JUnit.Test1" />
-        <item itemvalue="Application.Exercises1" />
+        <item itemvalue="JUnit.Test1.factorial2" />
+        <item itemvalue="JUnit.Test1.factorial0" />
+        <item itemvalue="JUnit.Test1.factorial1" />
+        <item itemvalue="JUnit.Test3" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-3183f394aec4-aba903c2" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -94,7 +132,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708327734643</updated>
+      <workItem from="1708946788102" duration="2016000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SBU_CS_Semester2_AP_First_Assignment_Warm_Up$Test1_factorial0.ic" NAME="Test1.factorial0 Coverage Results" MODIFIED="1708948054696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

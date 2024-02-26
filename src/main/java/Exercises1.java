@@ -3,8 +3,10 @@ public class Exercises1 {
     implement a function that returns factorial of given n
      */
     public long factorial(int n) {
-        // TODO
-        return 0;
+        if (n == 1 || n == 0)
+            return 1;
+
+        return n * factorial(n - 1);
     }
 
 
@@ -13,7 +15,7 @@ public class Exercises1 {
     the series -> 1, 1, 2, 3, 5, 8, ...
     */
     public long fibonacci(int n) {
-        // TODO
+        //TODO
         return 0;
     }
 
